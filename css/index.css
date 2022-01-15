@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    background-color: rgb(252, 252, 252);
+    color: rgb(0, 0, 0);
+}
+
+.div-1{
+    background-color: white;
+    border-radius: 25px;
+    border: 2px black;
+    margin-top: 25px;
+    box-shadow: 0.5px 0 0.5px 0 rgb(194, 194, 194);
+}
+h1{
+    /*font-family: "Major Mono Display", monospace;*/
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+}
+
+.nav{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.nav-items{
+    list-style: none;
+    display: flex;
+    list-style: none;
+}
+
+.nav-items > li {
+    padding: 10px;
+    
+}
+.nav-logo{
+    width: 60px;
+}
